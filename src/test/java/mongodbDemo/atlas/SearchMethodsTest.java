@@ -19,7 +19,8 @@ class SearchMethodsTest {
 
         sm = new SearchMethods();
 
-        // Egen testdata – ingen databasåtkomst behövs
+        // Egen testdata – ingen databasåtkomst behövs (används mot alla tester), skapar testdata med 3 filmer (setUP)
+
         testMovies = List.of(
 
                 new Movie(

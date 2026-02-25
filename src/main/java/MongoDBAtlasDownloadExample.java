@@ -15,9 +15,7 @@ public class MongoDBAtlasDownloadExample {
         String uri = ConfigLoader.get("mongodb.uri");
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
-
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-
             MongoCollection<Document> moviesCollection = database.getCollection("movies");
 
             List<Movie> movieList = new ArrayList<>();
