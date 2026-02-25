@@ -1,0 +1,2 @@
+# Kopiera den här filen till config.properties och fyll i egna uppgifter
+mongodb.uri=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
